@@ -46,7 +46,8 @@ function AutoRead() {
             url: `https://kandian.youth.cn/v5/article/complete.json`,
             headers: {
                 'request_time': ts,
-                'device-model': 'Letv+X500',
+                //'device-model': 'Letv+X500',
+                'device-model': 'Redmi+Note+3',
                 'device-platform': 'android',
                 'Content-Type': 'application/x-www-form-urlencoded',
                 'Host': 'kandian.youth.cn',
